@@ -2,7 +2,7 @@ import streamlit as st
 import httpx
 import json
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://personalized-networking-assistant-production-be6a.up.railway.app"
 
 st.set_page_config(
     page_title="Personalized Networking Assistant",
