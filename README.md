@@ -2,6 +2,12 @@
 
 AI-powered web application that generates smart, tailored conversation starters for professional/social networking events. Uses DistilBERT for theme extraction from event descriptions, GPT-2 for generating context-aware conversation prompts, and the Wikipedia API for fact-checking.
 
+## 🌐 Live Demo
+https://compassionate-rejoicing-production.up.railway.app
+
+## 🎥 Demo Video
+https://drive.google.com/file/d/1YZjIPuurGmB0mSq4IIHh1iiU-HYLxext/view?usp=sharing
+
 ## Architecture
 
 ```
