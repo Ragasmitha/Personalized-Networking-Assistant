@@ -7,20 +7,7 @@ _generator = None
 
 
 def _get_generator():
-    global _generator
-    if _generator is None:
-        try:
-            from transformers import pipeline
-            _generator = pipeline(
-                "text-generation",
-                model="gpt2",
-                device=-1,
-            )
-            logger.info("GPT-2 text-generation pipeline loaded.")
-        except Exception as e:
-            logger.error(f"Failed to load GPT-2: {e}")
-            _generator = None
-    return _generator
+    return None
 
 
 def generate_starters(event_description: str, themes: list[str], interests: str = "") -> list[str]:
